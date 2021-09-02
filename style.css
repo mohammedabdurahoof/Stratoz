@@ -278,7 +278,7 @@ header {
 }
 
 .black-rect img {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -405,6 +405,11 @@ footer p {
   padding: 0% !important;
 }
 
+.product-gallary .row .row > *{
+  padding: 0% !important;
+  margin: 0% !important;
+}
+
 .product-gallary p {
   color: #F8F8F8;
   margin: 35px;
@@ -412,7 +417,7 @@ footer p {
 
 .bottom-p{
   position: relative;
-  top: 75px;
+  top: 166px;
 }
 
 .bottom-p2{
@@ -427,3 +432,16 @@ footer p {
   bottom: 9rem;
 }
 
+.title{
+  position: relative;
+  bottom: 16rem;
+  left: 2rem;
+  color: #fff;
+}
+
+.title2{
+  position: relative;
+  top: 2rem;
+  right: 31rem;
+  color: #fff;
+}
